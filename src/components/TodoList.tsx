@@ -49,18 +49,6 @@ const TodoList: React.FC<props> = ({todos , setTodos , completedTodos , setCompl
           )
         }
       </Droppable>
-
-
-      {/* <div className="todos remove">
-      <span className="todos__heading">
-          Completed Tasks
-        </span>
-        {
-          todos.map(todo => (
-            <SingleTodo todo={todo} key={todo.id} todos={todos} setTodos={setTodos} /> //todos={todos} send to delete or edit or mark complete 
-          ))
-        }
-      </div> */}
     </div>
   )
 }
